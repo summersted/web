@@ -1,0 +1,60 @@
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-webkit-keyframes from_left {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes from_left {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes from_right {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes from_right {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0;
+  }
+}
+/*# sourceMappingURL=keyframes.css.map */

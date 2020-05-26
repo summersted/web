@@ -1,0 +1,24 @@
+html, body {
+  color: #cecdff;
+  font-family: 'Arial', Regular;
+  font-size: 23px;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #cecdff;
+}
+
+a:hover {
+  color: aqua;
+}
+
+li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=fonts.css.map */

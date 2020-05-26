@@ -1,0 +1,59 @@
+@media (max-width: 1000px) {
+  .media {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dark {
+    width: 700px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 700px) {
+  .media {
+    margin-left: -50px;
+  }
+  img {
+    min-width: 50%;
+    min-height: 50%;
+  }
+  .dark {
+    width: 20%;
+    height: 20%;
+  }
+  @-webkit-keyframes from_left {
+    from {
+      left: -20%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  @keyframes from_left {
+    from {
+      left: -20%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  @-webkit-keyframes from_right {
+    from {
+      right: -20%;
+    }
+    to {
+      right: 0;
+    }
+  }
+  @keyframes from_right {
+    from {
+      right: -20%;
+    }
+    to {
+      right: 0;
+    }
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
